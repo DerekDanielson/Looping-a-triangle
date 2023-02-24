@@ -6,6 +6,12 @@ while (symbol.length < 8) {
     symbol += "#";
 }
 
+//OR
+
+for (let n = '#'; n.length < 8; n += '#'){
+    console.log(n);
+  }
+
 /* 
 #
 ##
